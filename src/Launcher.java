@@ -8,7 +8,7 @@ public class Launcher {
         }
 
         long myTime = System.nanoTime();
-        for(int i=0; i<10000000; i++) {
+        for (int i = 0; i < 10000000; i++) {
             value = prng.random();
         }
 
